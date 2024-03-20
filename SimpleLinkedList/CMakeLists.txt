@@ -26,7 +26,7 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 # Unit Tests
 # Add test cpp file
-add_executable( runUnitTests tests.cpp)
+add_executable( runUnitTests tests.cpp test_complex.cpp)
 # Link test executable against gtest & gtest_main
 target_link_libraries(runUnitTests ${GTEST_BOTH_LIBRARIES})
 add_test( runUnitTests runUnitTests )

@@ -94,6 +94,15 @@ build CMakeFiles\runUnitTests.dir\tests.cpp.obj: CXX_COMPILER__runUnitTests_Debu
   TARGET_COMPILE_PDB = CMakeFiles\runUnitTests.dir\
   TARGET_PDB = runUnitTests.pdb
 
+build CMakeFiles\runUnitTests.dir\test_complex.cpp.obj: CXX_COMPILER__runUnitTests_Debug D$:\git\SimpleLinkedList\SimpleLinkedList\test_complex.cpp || cmake_object_order_depends_target_runUnitTests
+  DEFINES = -DGTEST_LINKED_AS_SHARED_LIBRARY=1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  INCLUDES = -external:ID:\vcpkg\installed\x64-windows\include -external:W0
+  OBJECT_DIR = CMakeFiles\runUnitTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runUnitTests.dir
+  TARGET_COMPILE_PDB = CMakeFiles\runUnitTests.dir\
+  TARGET_PDB = runUnitTests.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target runUnitTests
@@ -102,7 +111,7 @@ build CMakeFiles\runUnitTests.dir\tests.cpp.obj: CXX_COMPILER__runUnitTests_Debu
 #############################################
 # Link the executable runUnitTests.exe
 
-build runUnitTests.exe: CXX_EXECUTABLE_LINKER__runUnitTests_Debug CMakeFiles\runUnitTests.dir\tests.cpp.obj | D$:\vcpkg\installed\x64-windows\debug\lib\manual-link\gtest_main.lib D$:\vcpkg\installed\x64-windows\debug\lib\gtest.lib
+build runUnitTests.exe: CXX_EXECUTABLE_LINKER__runUnitTests_Debug CMakeFiles\runUnitTests.dir\tests.cpp.obj CMakeFiles\runUnitTests.dir\test_complex.cpp.obj | D$:\vcpkg\installed\x64-windows\debug\lib\manual-link\gtest_main.lib D$:\vcpkg\installed\x64-windows\debug\lib\gtest.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = D:\vcpkg\installed\x64-windows\debug\lib\manual-link\gtest_main.lib  D:\vcpkg\installed\x64-windows\debug\lib\gtest.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
