@@ -1,0 +1,5 @@
+D:/git/SimpleLinkedList/SimpleLinkedList/out/build/x64-debug/CMakeFiles/SimpleLinkedList.dir
+D:/git/SimpleLinkedList/SimpleLinkedList/out/build/x64-debug/CMakeFiles/runUnitTests.dir
+D:/git/SimpleLinkedList/SimpleLinkedList/out/build/x64-debug/CMakeFiles/test.dir
+D:/git/SimpleLinkedList/SimpleLinkedList/out/build/x64-debug/CMakeFiles/edit_cache.dir
+D:/git/SimpleLinkedList/SimpleLinkedList/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
